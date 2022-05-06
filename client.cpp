@@ -2,6 +2,9 @@
 #include <cstdio>
 
 int userinq(char* usern);
+int addusr(char* usern);
+int updusr(char* usern);
+int delusr(char* usern);
 
 int main() {
     printf("Client\n");
@@ -27,21 +30,30 @@ int main() {
         else if (inputins == 1)
         {
             char usern[50];
-            puts("Please inpot your user name\n");
+            puts("Please inpot your user name:");
             scanf("%s", &usern);
             userinq(usern);
         }
         else if (inputins == 2)
         {
-            puts("2\n");
+            char usern[50];
+            puts("Please input user name:");
+            scanf("%s", &usern);
+            addusr(usern);
         }
         else if (inputins == 3)
         {
-            puts("3\n");
+            char usern[50];
+            puts("Please input user name:");
+            scanf("%s", &usern);
+            updusr(usern);
         }
         else if (inputins == 4)
         {
-            puts("4\n");
+            char usern[50];
+            puts("Please input user name:");
+            scanf("%s", &usern);
+            delusr(usern);
         }
         else if (inputins == 5)
         {
@@ -59,5 +71,22 @@ int main() {
 int userinq(char* usern)
 {
     printf("%s's Timetable\n", usern);
+    return 0;
+}
+
+int addusr(char* usern)
+{
+    printf("User %s is added!\n", usern);
+    return 0;
+}
+
+int updusr(char* usern)
+{
+    printf("User %s is updated!\n", usern);
+    return 0;
+}
+int delusr(char* usern)
+{
+    printf("User %s is deleted!\n", usern);
     return 0;
 }
