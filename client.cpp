@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cstdio>
 
+int userinq(char* usern);
+
 int main() {
     printf("Client\n");
 
@@ -24,7 +26,10 @@ int main() {
         }
         else if (inputins == 1)
         {
-            puts("1\n");
+            char usern[50];
+            puts("Please inpot your user name\n");
+            scanf("%s", &usern);
+            userinq(usern);
         }
         else if (inputins == 2)
         {
@@ -48,6 +53,11 @@ int main() {
         }
     }
 
+    return 0;
+}
 
+int userinq(char* usern)
+{
+    printf("%s's Timetable\n", usern);
     return 0;
 }
