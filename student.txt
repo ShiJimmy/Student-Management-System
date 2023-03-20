@@ -1,0 +1,8 @@
+name course_code
+John 1002
+aa 22
+22 2
+Tim 1003
+Jimmy 1002
+Alice 1003
+Bob 1004

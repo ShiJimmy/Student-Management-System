@@ -1,0 +1,7 @@
+course_code course_title section time classroom instructor 
+1002 English 2 14:00-16:00 T5-401 Eric
+1003 Chinese 2 8:00-10:00 T6-403 Jack
+1006 Music 1 15:00-17:00 T4-306 Lily
+111 1 1 1 11 1
+0 0 0   
+1004 Network 1 15:00-17:00 T7-501 Ricky
