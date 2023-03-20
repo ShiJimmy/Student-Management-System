@@ -1,6 +1,10 @@
 # DCN_Group_Proj
 
-Default port number of server is 5019
+This is a small project for a course in CS major. 
+
+The System is client-server mode.
+
+Default port number of the server is 5019
 
 Step 0: 
 
